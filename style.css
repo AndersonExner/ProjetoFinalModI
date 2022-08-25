@@ -1,0 +1,89 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    box-sizing: border-box;
+    display: flex;
+}
+
+/* menu lateral */
+
+.menu{
+    width: 30vw;
+    height: 100vh;
+    text-align: center;
+    padding: 180px 0 0 0;
+    background-image: url(./images/backmenu2.jpeg);
+    background-size: cover;
+}   
+
+
+.imgperfil{
+    border-radius: 50%;
+    width: 40%;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.menu a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+/* conteudo */
+
+.corpo{
+    background-color: rgb(243, 241, 241);
+    width: 70vw;
+    height: 100vh;
+    padding: 180px 0 0 100px;
+}
+
+.corpo h1{
+    color: black;
+    font-size: 3rem; 
+}
+
+.corpo h2{
+    font-size: 1.5rem; 
+}
+
+.corpo h3{
+    font-size: 2rem;
+}
+
+
+.corpo h4{
+    font-size: 1.5rem;
+}
+
+/* lista da pagina conhecimentos*/
+.corpo ol{
+    list-style: upper-alpha;
+    font-size: 1.5rem;  
+}
+
+.corpo ol > li::marker {
+    font-weight: bold;
+}
+
+/* lista da pagina conhecimentos*/
+.corpo ul{
+    font-size: 1.5rem;  
+}
+
+/* menu redes sociais */
+
+.contato{
+    padding: 0 35px 0 0;
+    display: inline;
+}
+
+
