@@ -1,32 +1,29 @@
-*{
+body{
     border: 0;
     margin: 0;
+    box-sizing: border-box;
+    
 }
 
-.container{
-    display: flex;
-}
 
 /* menu lateral */
 
 .menu{
-    width: 30vw;
-    height: 100vh;
     text-align: center;
-    padding: 180px 0 0 0;
     background-image: url(./images/backmenu2.jpeg);
     background-size: cover;
+    padding-top: 10%;
 }   
 
 
 .imgperfil{
     border-radius: 50%;
-    width: 40%;
+    width: 50%;
 }
 
 ul{
     list-style: none;
-    padding: 0px;
+    padding-top: 3%;
 }
 
 .menu a{
@@ -39,9 +36,7 @@ ul{
 
 .corpo{
     background-color: rgb(243, 241, 241);
-    width: 70vw;
-    height: 100vh;
-    padding: 180px 0 0 100px;
+    padding-top: 10%;
 }
 
 .corpo h1{
